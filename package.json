@@ -1,0 +1,23 @@
+{
+  "name": "ontoron",
+  "version": "1.0.0",
+  "description": "simple crud website by express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon index.js"
+  },
+  "author": "Galib",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "g": "^2.0.1",
+    "mongoose": "^5.11.18",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "validator": "^13.5.2"
+  }
+}
